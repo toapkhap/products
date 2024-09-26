@@ -124,6 +124,6 @@ def san_pham():
                 print("Mời bạn chọn chức năng tiếp!")
             elif lua_chon=='Yes':
                 print("Thoát chương trình thành công")
-                exit()
-san_pham()
+                break
+
     
