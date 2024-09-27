@@ -83,6 +83,7 @@ def nha_san_xuat():
         print("8. Xếp hạng các nhà cung cấp")
         print("9. Chức năng 9")
         print("10. Chức năng 10")
+        print("11.Thoát chương trình")
 
         chon = input("Mời bạn chọn chức năng: ")
         if chon == "1":
@@ -105,7 +106,8 @@ def nha_san_xuat():
             chuc_nang_9()
         elif chon == "10":
             chuc_nang_10()
-        elif chon == "0":
+        elif chon == "11":
+            print("Thoát chương trình thành công")
             break
         else:
-            print("Không có chức năng này, vui lòng chọn lại chức năng từ ( 1 - 10 ).")
+            print("Không có chức năng này, vui lòng chọn lại chức năng từ ( 1 - 11 ).")

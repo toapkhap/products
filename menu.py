@@ -1,6 +1,7 @@
 import nha_san_xuat
 import products
 import van_chuyen
+import don_hang
 import nhan_vien
 
 
@@ -26,6 +27,7 @@ def quan_li_chuoi_cung_ung():
             print("Bạn đã chọn vào mục vận chuyển")
             van_chuyen.van_chuyen()
         elif chon_chuc_nang=='4':
+            don_hang.don_hang()
             print("Bạn đã chọn vào mục đơn hàng")
         elif chon_chuc_nang=='5':
             print("Bạn đã chọn vào mục nhân viên")
