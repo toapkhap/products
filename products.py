@@ -36,7 +36,7 @@ def san_pham():
         elif chon==2:
             lua_chon=input("Bạn có chắc chắn muốn thêm sản phẩm mới không(Yes/No): ")
             if lua_chon=='Yes': 
-                them_san_pham={}
+                them_san_pham={}                
                 them_san_pham['Mã sản phẩm']=input("Mời bạn nhập mã sản phẩm mới: ")
                 them_san_pham['Tên sản phẩm']=input("Mời bạn nhập tên sản phẩm mới: ")
                 them_san_pham['Giá']=int(input("Mời bạn nhập giá sản phẩm mới: "))
@@ -125,5 +125,4 @@ def san_pham():
             elif lua_chon=='Yes':
                 print("Thoát chương trình thành công")
                 break
-
     
