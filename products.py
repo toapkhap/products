@@ -125,4 +125,3 @@ def san_pham():
             elif lua_chon=='Yes':
                 print("Thoát chương trình thành công")
                 break
-    

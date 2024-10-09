@@ -1,5 +1,5 @@
 import nha_san_xuat
-import products
+import san_pham
 import van_chuyen
 import don_hang
 import nhan_vien
@@ -22,7 +22,7 @@ def quan_li_chuoi_cung_ung():
             nha_san_xuat.nha_san_xuat()
         elif chon_chuc_nang=='2':
             print("Bạn đã chọn vào mục sản phẩm")
-            products.san_pham()
+            san_pham.products()
         elif chon_chuc_nang=='3':
             print("Bạn đã chọn vào mục vận chuyển")
             van_chuyen.van_chuyen()
